@@ -47,4 +47,4 @@ client.connect(err => {
   //client.close();
 });
 
-app.listen(process.env.port || PORT)
+app.listen(port)
