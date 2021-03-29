@@ -47,6 +47,4 @@ client.connect(err => {
   //client.close();
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
+app.listen(process.env.port || PORT)
